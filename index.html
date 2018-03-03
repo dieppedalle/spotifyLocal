@@ -1,0 +1,521 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, maximum-scale=1">
+	<title>Spotify Local</title>
+	<link rel="icon" href="favicon.png" type="image/png">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/linecons.css" rel="stylesheet" type="text/css">
+	<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+	<link href="css/responsive.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.css" rel="stylesheet" type="text/css">
+
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,900,700,700italic,400italic,300italic,300,100italic,100,900italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Dosis:400,500,700,800,600,300,200' rel='stylesheet' type='text/css'>
+
+	<!-- =======================================================
+    Theme Name: Butterfly
+    Theme URL: https://bootstrapmade.com/butterfly-free-bootstrap-theme/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+	======================================================= -->
+
+	<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.isotope.js"></script>
+	<script type="text/javascript" src="js/wow.js"></script>
+	<script type="text/javascript" src="js/classie.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(e) {
+			$('.res-nav_click').click(function() {
+				$('ul.toggle').slideToggle(600)
+			});
+
+			$(document).ready(function() {
+				$(window).bind('scroll', function() {
+					if ($(window).scrollTop() > 0) {
+						$('#header_outer').addClass('fixed');
+					} else {
+						$('#header_outer').removeClass('fixed');
+					}
+				});
+
+			});
+
+
+		});
+
+		function resizeText() {
+			var preferredWidth = 767;
+			var displayWidth = window.innerWidth;
+			var percentage = displayWidth / preferredWidth;
+			var fontsizetitle = 25;
+			var newFontSizeTitle = Math.floor(fontsizetitle * percentage);
+			$(".divclass").css("font-size", newFontSizeTitle)
+		}
+	</script>
+</head>
+
+<body>
+
+	<!--Header_section-->
+	<header id="header_outer">
+		<div class="container">
+			<div class="header_section">
+				<div class="logo"><a href="javascript:void(0)"><img src="img/spotifyLogo.png" alt="" height="32"></a></div>
+				<nav class="nav" id="nav">
+					<ul class="toggle">
+						<li><a href="#top_content">Home</a></li>
+						<li><a href="#service">Services</a></li>
+						<li><a href="#work_outer">Work</a></li>
+						<li><a href="#Portfolio">Portfolio</a></li>
+						<li><a href="#client_outer">Clients</a></li>
+						<li><a href="#team">Team</a></li>
+						<li><a href="#contact">Sign Up</a></li>
+					</ul>
+					<ul class="">
+						<li><a href="#top_content">Home</a></li>
+						<li><a href="#service">Benefits for local artists</a></li>
+						<li><a href="#work_outer">Features</a></li>
+						<li><a href="#Portfolio">Differentiation</a></li>
+						<li><a href="#client_outer">User Stories</a></li>
+						<li><a href="#contact">Sign Up</a></li>
+					</ul>
+				</nav>
+				<a class="res-nav_click animated wobble wow" href="javascript:void(0)"><i class="fa-bars"></i></a> </div>
+		</div>
+	</header>
+	<!--Header_section-->
+
+	<!--Top_content-->
+	<section id="top_content" class="top_cont_outer">
+		<div class="top_cont_inner">
+			<div class="container">
+				<div class="top_content">
+					<div class="row">
+						<div class="col-lg-5 col-sm-7">
+							<div class="top_left_cont flipInY wow animated">
+								<h3>Supporting Local Indie Artists!</h3>
+								<h2>Discover new local artists in your area</h2>
+								<p> The newly redesigned Spotify app now helps local artists gain exposure and suggests to indie music fans to discover new exclusive local content on Spotify. </p>
+								<a href="#service" class="learn_more2">Learn more</a> </div>
+						</div>
+						<div class="col-lg-7 col-sm-5"> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Top_content-->
+
+	<!--Service-->
+	<section id="service">
+		<div class="container">
+			<h2>Benefits for local artists</h2>
+			<div class="service_area">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="service_block">
+							<div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fa-users"></i></span> </div>
+							<h3 class="animated fadeInUp wow">Gain more exposure on Spotify. </h3>
+							<p class="animated fadeInDown wow">The newly redesigned SPotify will promote local indie artists throughout the app and will help them get more listeners and a higher revenue.</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="service_block">
+							<div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa-music"></i></span> </div>
+							<h3 class="animated fadeInUp wow">Easy access to music recording equipment</h3>
+							<p class="animated fadeInDown wow">Spotify will provide access to high quality with low cost recording equipment to local artists. Currently, numerous indie artists do not have access to cheap high quality recording equipment.</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="service_block">
+							<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa-comments"></i></span> </div>
+							<h3 class="animated fadeInUp wow">Access to tools to encourage local artists to engage directly with their users.</h3>
+							<p class="animated fadeInDown wow">Local artists currently usually play songs in local venues and sell CDs but do not keep a long term communication with their listeners. This would ensure that local artists would get more daily listeners. .</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Service-->
+
+	<section id="work_outer">
+		<!--main-section-start-->
+		<div class="top_cont_latest">
+			<div class="container">
+				<h2>Features for Spotify Listeners</h2>
+				<div class="work_section">
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 wow fadeInLeft delay-05s">
+							<div class="service-list">
+								<div class="service-list-col1"> <i class="icon-doc"></i> </div>
+								<div class="service-list-col2">
+									<h3>Discover new local indie music</h3>
+									<p>Spotify will provide a wider selection of local indie music compared to all other music platforms. The discover feature will recommend indie music to you based on your music taste.</p>
+								</div>
+							</div>
+							<div class="service-list">
+								<div class="service-list-col1"> <i class="icon-comment"></i> </div>
+								<div class="service-list-col2">
+									<h3>Explore music events near you</h3>
+									<p>You will be able to directly interact with artists and meet people having the same music tastes in these events.</p>
+								</div>
+							</div>
+							<div class="service-list">
+								<div class="service-list-col1"> <i class="icon-database"></i> </div>
+								<div class="service-list-col2">
+									<h3>Support artists from the beginning</h3>
+									<p>You will be able to learn more about their artists by getting an exclusive behind the scenes experience.</p>
+								</div>
+							</div>
+							<div class="work_bottom"> <span>Ready to take the plunge?</span> <a href="#contact" class="contact_btn">Contact Us for beta</a> </div>
+						</div>
+						<figure class="col-lg-6 col-sm-6  text-right wow fadeInUp delay-02s"> </figure>
+					</div>
+				</div>
+			</div>
+			<!--<div class="work_pic"><img src="img/dashboard_pic.png" alt=""></div>-->
+		</div>
+	</section>
+	<!--main-section-end-->
+
+	<!--new_portfolio-->
+
+	<!-- Portfolio -->
+	<section id="Portfolio" class="content">
+
+		<!-- Container -->
+		<div class="container portfolio-title">
+
+			<!-- Section Title -->
+			<div class="section-title">
+				<h2>Differentiation</h2>
+			</div>
+			<!--/Section Title -->
+
+		</div>
+		<!-- Container -->
+
+		<div class="portfolio-top"></div>
+
+		<!-- Portfolio Plus Filters -->
+		<div class="portfolio">
+
+			<div class="container">
+				<h6>Artists</h6>
+				<div class="team-leader-block clearfix">
+					<div class="team-leader-box">
+						<h3 class="wow fadeInDown delay-03s">Resources</h3>
+						<p class="wow fadeInDown delay-03s">With Spotify Local, we ensure that any person or band interested in making
+music will have the available resources to record their music. 
+. Spotify will help independent artists gain momentum and
+exposure with a carefully planned marketing plan. With our marketing plan, you
+will be able to build a following quickly and be able to connect with your fans.
+</p>
+					</div>
+					<div class="team-leader-box">
+						<h3 class="wow fadeInDown delay-09s">Fair Competition</h3>
+						<p class="wow fadeInDown delay-09s">Many of the other music platforms either rely on streaming plays or purchases.
+Realistically, in today’s world, purchasing music may provide most profit for
+independent artists. However, music purchases are declining and will be
+overcome by streaming in no time. Therefore, Spotify offers a fighting chance for
+emerging artists. With Spotify’s new revenue model for independent artists, you
+won’t be competing with today’s mega stars. You will be competing with other
+independent artists to maximize the amount of streams on your music.
+</p>
+					</div>
+				</div>
+				<h6>Indie Music Listeners</h6>
+				<div class="team-leader-block clearfix">
+					<div class="team-leader-box">
+						<h3 class="wow fadeInDown delay-03s">Largest Diverse Music Library</h3>
+						<p class="wow fadeInDown delay-03s">With our new Spotify Local program, we will bring in a wider variety of music
+content onto Spotify. Many of the artists We will ensure that only official,  original,
+an music authorized by independent artists will be posted to Spotify. You will have
+access to any artist’s music and playlists. As a user, you won’t have to go to any
+music platform to discover new music, or listen to the music you already love.
+</p>
+					</div>
+					<div class="team-leader-box">
+						<h3 class="wow fadeInDown delay-09s">Easy to Explore and Find Indie Artists </h3>
+						<p class="wow fadeInDown delay-09s">	Many times, some music is difficult to find as it is just hidden under the wide
+content of music libraries on other platforms. It may also even be difficult and
+tedious to search and explore new music, specifically finding artists under your
+music taste. With our new features under our Spotify Local program, you will easily
+be able to listen to independent artists similar to the artists you currently listen to.
+We will provide many ways to listen to new independent artists.
+</p>
+					</div>
+				</div>
+			</div>
+			
+
+		</div>
+		<!--/Portfolio Plus Filters -->
+
+	
+		<!--/Project Page Holder-->
+
+	</section>
+	<!--/Portfolio -->
+
+	<!--new_portfolio-->
+
+	<!--
+<section class="main-section paddind" id="Portfolio">
+	<div class="container">
+    	<h2>Portfolio</h2>
+    	<h6>Fresh portfolio of designs that will keep you wanting more.</h6>
+	</div>
+
+
+</section>
+
+-->
+
+	<section class="main-section" id="client_outer">
+		<!--main-section client-part-start-->
+		<h2>User Stories</h2>
+		<div class="client_area ">
+			<div class="client_section animated  fadeInUp wow">
+				<div class="client_profile">
+					<div class="client_profile_pic"><img src="img/client-pic1.jpg" alt=""></div>
+					<h3>Diablo</h3>
+					<span>Los Angeles, CA</span> </div>
+				<div class="quote_section">
+					<div class="quote_arrow"></div>
+					<p><b><img src="img/quote_sign_left.png" alt=""></b> Diablo is an upcoming indie pop artist in LA who is trying to create and  get more people to listen to his music, but does not have all the time, money and resources as he also works 2 part time jobs. He wants to be able to reach a lot of users with his music, and doesn't have the resources to spend money of videos, streaming, label and legal hassle. <small><img src="img/quote_sign_right.png" alt=""></small>						</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="client_section animated  fadeInDown wow">
+				<div class="client_profile flt">
+					<div class="client_profile_pic"><img src="img/client-pic2.jpg" alt=""></div>
+					<h3>Jayne</h3>
+					<span>Berkeley, CA</span> </div>
+				<div class="quote_section flt">
+					<div class="quote_arrow2"></div>
+					<p><b><img src="img/quote_sign_left.png" alt=""></b>Jayne is a current spotify premium user in Berkeley who loves listening  to all types of pop and rock artists. She enjoys listening to indie and local music frequently but does not have the time and bandwidth to find and follow them on all the different platforms they normally post their music on. She is trying to find a less time and money intensive way to listen to and follow indie music because she thinks it would be cool and fun an a good way to explore new music. <small><img src="img/quote_sign_right.png" alt=""></small>						</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</section>
+	<!--main-section client-part-end-->
+
+	<div class="c-logo-part">
+		<!--c-logo-part-start-->
+		<div class="container">
+			<ul class="delay-06s animated  bounce wow">
+				<li><a href="javascript:void(0)"><img src="img/c-liogo1.png" alt=""></a></li>
+				<li><a href="javascript:void(0)"><img src="img/c-liogo2.png" alt=""></a></li>
+				<li><a href="javascript:void(0)"><img src="img/c-liogo3.png" alt=""></a></li>
+			</ul>
+		</div>
+	</div>
+	<!--c-logo-part-end-->
+	
+	<!--main-section team-end-->
+
+	<section class="twitter-feed">
+		<!--twitter-feed-->
+		<div class="container  animated fadeInDown delay-07s wow">
+			<div class="twitter_bird"><span><i class="fa-twitter"></i></span></div>
+			<p>Spotify Local, a new way connecting local artists to indie music listeners,<br> will revolutionize the way we discover and consume music. #Spotify #local #indie</p>
+			<span>WIRED</span> </div>
+	</section>
+	<!--twitter-feed-end-->
+	<footer class="footer_section" id="contact">
+		<div class="container">
+			<section class="main-section contact" id="contact">
+				<div class="row">
+					<div class="col-lg-6 wow fadeInLeft">
+						<div class="contact-info-box address clearfix">
+							<h3>Fill out the form to sign up to the beta!</h3>
+							<p>By giving us your contact information we will send you a link to download the beta version of the desktop Spotify app having the features for local indie artists.</p>
+							<p>Please give us feedback and report bugs at local@spotify.com to help us improve Spotify Local.</p>
+						</div>
+						<ul class="social-link">
+							<li class="twitter animated bounceIn wow delay-02s"><a href="https://twitter.com/Spotify"><i class="fa-twitter"></i></a></li>
+							<li class="facebook animated bounceIn wow delay-03s"><a href="https://www.facebook.com/Spotify/"><i class="fa-facebook"></i></a></li>
+							<li class="pinterest animated bounceIn wow delay-04s"><a href="https://www.pinterest.com/spotify/"><i class="fa-pinterest"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-6 wow fadeInUp delay-06s">
+						<div class="form">
+							<div id="sendmessage">Your message has been sent. Thank you!</div>
+							<div id="errormessage"></div>
+							<form action="" method="post" role="form" class="contactForm">
+								<div class="form-group">
+									<input type="text" name="name" class="form-control input-text" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+									<div class="validation"></div>
+								</div>
+								<div class="form-group">
+									<input type="email" class="form-control input-text" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+									<div class="validation"></div>
+								</div>
+								<div class="form-group">
+									<input type="text" class="form-control input-text" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+									<div class="validation"></div>
+								</div>
+								<div class="form-group">
+									<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+									<div class="validation"></div>
+								</div>
+
+								<button type="submit" class="btn input-btn">REQUEST BETA</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="container">
+			<div class="footer_bottom">
+				<span>© UC Berkeley Spotify Local 2018</span>
+				<div class="credits">
+					<!--
+            All the links in the footer should remain intact.
+            You can delete the links only if you purchased the pro version.
+            Licensing information: https://bootstrapmade.com/license/
+            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Butterfly
+          -->
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript">
+		$(document).ready(function(e) {
+			$('#header_outer').scrollToFixed();
+			$('.res-nav_click').click(function() {
+				$('.main-nav').slideToggle();
+				return false
+
+			});
+
+		});
+	</script>
+	<script>
+		wow = new WOW({
+			animateClass: 'animated',
+			offset: 100
+		});
+		wow.init();
+		document.getElementById('').onclick = function() {
+			var section = document.createElement('section');
+			section.className = 'wow fadeInDown';
+			section.className = 'wow shake';
+			section.className = 'wow zoomIn';
+			section.className = 'wow lightSpeedIn';
+			this.parentNode.insertBefore(section, this);
+		};
+	</script>
+	<script type="text/javascript">
+		$(window).load(function() {
+
+			$('a').bind('click', function(event) {
+				var $anchor = $(this);
+
+				$('html, body').stop().animate({
+					scrollTop: $($anchor.attr('href')).offset().top - 91
+				}, 1500, 'easeInOutExpo');
+				/*
+				if you don't want to use the easing effects:
+				$('html, body').stop().animate({
+					scrollTop: $($anchor.attr('href')).offset().top
+				}, 1000);
+				*/
+				event.preventDefault();
+			});
+		})
+	</script>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			// Portfolio Isotope
+			var container = $('#portfolio-wrap');
+
+
+			container.isotope({
+				animationEngine: 'best-available',
+				animationOptions: {
+					duration: 200,
+					queue: false
+				},
+				layoutMode: 'fitRows'
+			});
+
+			$('#filters a').click(function() {
+				$('#filters a').removeClass('active');
+				$(this).addClass('active');
+				var selector = $(this).attr('data-filter');
+				container.isotope({
+					filter: selector
+				});
+				setProjects();
+				return false;
+			});
+
+
+			function splitColumns() {
+				var winWidth = $(window).width(),
+					columnNumb = 1;
+
+
+				if (winWidth > 1024) {
+					columnNumb = 4;
+				} else if (winWidth > 900) {
+					columnNumb = 2;
+				} else if (winWidth > 479) {
+					columnNumb = 2;
+				} else if (winWidth < 479) {
+					columnNumb = 1;
+				}
+
+				return columnNumb;
+			}
+
+			function setColumns() {
+				var winWidth = $(window).width(),
+					columnNumb = splitColumns(),
+					postWidth = Math.floor(winWidth / columnNumb);
+
+				container.find('.portfolio-item').each(function() {
+					$(this).css({
+						width: postWidth + 'px'
+					});
+				});
+			}
+
+			function setProjects() {
+				setColumns();
+				container.isotope('reLayout');
+			}
+
+			container.imagesLoaded(function() {
+				setColumns();
+			});
+
+
+			$(window).bind('resize', function() {
+				setProjects();
+			});
+
+		});
+		$(window).load(function() {
+			jQuery('#all').click();
+			return false;
+		});
+	</script>
+	<script src="contactform/contactform.js"></script>
+
+</body>
+</html>
