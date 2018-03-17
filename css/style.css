@@ -202,6 +202,11 @@ p{
 	background:url(../img/spotifyDesktop4.png) no-repeat right bottom;
   background-size: 633px 548.7px;
 	}
+  
+.top_cont_inner_2{
+	background:url(../img/iphone2.png) no-repeat right bottom;
+  background-size: 776px 415px;
+	}
 	
 .top_content{
 	position:relative;
@@ -1080,8 +1085,6 @@ img {
 }
 
 .input-btn:hover{
-	background: #fff;
-	color: #222;
 }
 
 /* Footer
