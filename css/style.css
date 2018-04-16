@@ -487,7 +487,8 @@ a.contact_btn:hover{
 ---------------------------------*/
 
 
-#Portfolio{ padding:100px 0px;}
+#Portfolio{ padding:100px 0px;
+	background:#f9f9f9;}
 
 .Portfolio-nav{
 	padding:0;
